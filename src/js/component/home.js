@@ -4,5 +4,9 @@ import Trafficlight from "./Trafficelight";
 
 //create your first component
 export function Home() {
-	return <div />;
+	return (
+		<div>
+			<Trafficlight />
+		</div>
+	);
 }
